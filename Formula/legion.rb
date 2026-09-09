@@ -1,15 +1,15 @@
 # Homebrew formula template for Legion.
 #
 # The release workflow renders this into Formula/legion.rb in the
-# dawnswwwww/homebrew-tap tap, substituting 0.0.1-rc.5, 9ecb0183103a8d23808fc5f4874b40623cfb25d0b46d3922a87b4bbd02a58a62,
-# and dead208a4059aebfad3838b40f5ae86543f7f253575be7c85c8527d240885d18.
+# dawnswwwww/homebrew-tap tap, substituting 0.0.1-rc.5, 056a54627d1226c267d0e1670ebb3ee3c917b2a1a2c5a47ba8faead2be402cb5,
+# and 30c49c3e7e09e0071ef94229ada50bc465a888c4a41336d58e72e76358736c0d.
 #
 # Users install via:  brew install dawnswwwww/tap/legion
 class Legion < Formula
   desc "Self-hosted, multi-channel AI agent gateway and CLI"
   homepage "https://github.com/dawnswwwww/uselegion"
   url "https://github.com/dawnswwwww/uselegion/releases/download/v0.0.1-rc.5/legion-0.0.1-rc.5-x86_64-apple-darwin.tar.gz"
-  sha256 "dead208a4059aebfad3838b40f5ae86543f7f253575be7c85c8527d240885d18"
+  sha256 "30c49c3e7e09e0071ef94229ada50bc465a888c4a41336d58e72e76358736c0d"
   license "MIT"
   version "0.0.1-rc.5"
 
@@ -18,7 +18,7 @@ class Legion < Formula
   on_macos do
     on_arm do
       url "https://github.com/dawnswwwww/uselegion/releases/download/v0.0.1-rc.5/legion-0.0.1-rc.5-aarch64-apple-darwin.tar.gz"
-      sha256 "9ecb0183103a8d23808fc5f4874b40623cfb25d0b46d3922a87b4bbd02a58a62"
+      sha256 "056a54627d1226c267d0e1670ebb3ee3c917b2a1a2c5a47ba8faead2be402cb5"
     end
   end
 
